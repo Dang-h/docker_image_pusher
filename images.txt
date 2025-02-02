@@ -1,1 +1,2 @@
 jericx/syncclipboard-server
+vaultwarden/server
