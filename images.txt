@@ -3,3 +3,4 @@ vaultwarden/server
 helloz/onenav
 freshrss/freshrss
 mysql:5.7.29
+gitea/gitea:1.23.1
