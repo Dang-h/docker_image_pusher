@@ -1,3 +1,4 @@
 jericx/syncclipboard-server
 vaultwarden/server
 helloz/onenav
+freshrss/freshrss
