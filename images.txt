@@ -2,3 +2,4 @@ jericx/syncclipboard-server
 vaultwarden/server
 helloz/onenav
 freshrss/freshrss
+mysql:5.7.29
