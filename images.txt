@@ -5,3 +5,4 @@ freshrss/freshrss
 mysql:5.7.29
 gitea/gitea:1.23.1
 mzz2017/v2raya:v2.2.6.3
+shuiche/mind-map:v0.13.1
