@@ -1,1 +1,1 @@
-shuiche/mind-map:v0.13.1
+shuiche/mind-map:v0.9.12
