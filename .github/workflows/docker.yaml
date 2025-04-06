@@ -45,14 +45,16 @@ jobs:
           # 构建新的镜像名称
           new_image="$ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE/$image_name_tag"
           
-          # 使用 buildx 创建并推送多架构镜像
-          docker buildx create --use
-          docker buildx inspect --bootstrap
+          # 创建一个临时的 Dockerfile
+          echo "FROM --platform=linux/amd64 $image as amd64" > Dockerfile.multi
+          echo "FROM --platform=linux/arm64 $image as arm64" >> Dockerfile.multi
           
-          # 拉取原始镜像并创建多架构版本
-          docker buildx imagetools create -t $new_image \
+          # 使用 buildx 构建并推送多架构镜像
+          docker buildx build \
             --platform linux/amd64,linux/arm64 \
-            $image
+            --tag $new_image \
+            --file Dockerfile.multi \
+            --push .
             
           echo "Successfully processed and pushed: $new_image"
         done < images.txt
