@@ -1,1 +1,1 @@
-aceberg/watchyourports:0.1.2
+aceberg/watchyourports:latest
