@@ -1,1 +1,1 @@
-shuiche/mind-map:v0.15.0
+mayswind/ezbookkeeping:SNAPSHOT-20250817
