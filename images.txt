@@ -1,1 +1,1 @@
-mayswind/ezbookkeeping:SNAPSHOT-20250823
+vaultwarden/server:1.35.3
