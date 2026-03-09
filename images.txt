@@ -1,1 +1,1 @@
-prom/snmp-exporter:v0.30.1
+jc21/nginx-proxy-manager:2.13.7
