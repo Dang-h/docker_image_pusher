@@ -1,1 +1,1 @@
-homeassistant/home-assistant:stable
+authelia/authelia:4.39
